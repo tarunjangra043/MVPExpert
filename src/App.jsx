@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      {/* <div className="relative w-full">
+      <div className="relative w-full">
         <Navbar>
           <NavBody>
             <NavbarLogo />
@@ -74,7 +74,7 @@ function App() {
           </MobileNav>
         </Navbar>
         <DummyContent />
-      </div> */}
+      </div>
 
       <div>
         <HeroHighlight>
