@@ -16,7 +16,7 @@ import {
 } from "./components/ui/Navbar.jsx";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const navItems = [
     {
       name: "Features",
@@ -87,7 +87,6 @@ function App() {
             </MobileNavMenu>
           </MobileNav>
         </Navbar>
-        <DummyContent />
       </div>
 
       <div>
